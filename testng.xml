@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutoHero test run">
+
+    <listeners>
+        <listener class-name="com.autohero.reporting.ExtentReporterNG"/>
+    </listeners>
+
+
+    <test name="Search Test">
+        <classes>
+            <class name="com.autohero.api.tests.AutoHeroSearchAPITest"/>
+            <class name="com.autohero.ui.tests.AutoHeroSearchUITest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "fields": [
+      "bodyType",
+      "builtYear",
+      "co2Value",
+      "composites",
+      "firstRegistrationYear",
+      "fuelConsumption",
+      "fuelType",
+      "gearType",
+      "horsePower",
+      "id",
+      "kw",
+      "manufacturer",
+      "mileage",
+      "model",
+      "offerPrice",
+      "publishedAt",
+      "registration",
+      "retailAdState",
+      "subType",
+      "subTypeExtra",
+      "subtitle",
+      "title",
+      "tuvNumber"
+    ],
+    "from": 0,
+    "locale": "de-de",
+    "location": {
+      "countries": [
+        "DE"
+      ],
+      "locations": []
+    },
+    "published": true,
+    "registrationDate": {
+      "from": 2015
+    },
+    "sellerType": [
+      3
+    ],
+    "size": 1000,
+    "sort": [
+      {
+        "field": "sellerType",
+        "direction": "desc"
+      },
+      {
+        "field": "offerPrice.amountMinorUnits",
+        "direction": "desc"
+      }
+    ],
+    "retailAdState": [
+      "imported-to-retail",
+      "reserved"
+    ]
+  }
+}
